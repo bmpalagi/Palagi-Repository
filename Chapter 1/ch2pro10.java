@@ -1,6 +1,7 @@
 //Brad Palagi
 //8/24/17
 //first program to test output
+//AYYO
 
 import java.util.Scanner;
 import java.text.DecimalFormat;
