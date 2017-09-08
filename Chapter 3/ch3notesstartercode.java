@@ -17,10 +17,21 @@ public class ch3notesstartercode
 public static void main (String [] args)
 {
 
-/* ===============================================================
-	   String word = "apple";
-		String word1 = "cat";
-		String word2 = "dog";
+/**/
+	String word1 = "apple";
+	String word2 = "cat";
+	String word3 = "dog";
+
+	if (word2.compareTo(word1) < 0) // DONT PUT A SEMICOLON AFTER IF STATEMENT OR LOOP
+	{
+		System.out.println(word2 +"is before " + word1);
+
+	}
+
+	if (word2.compareTo(word3) < 0)// if equal compareTo returns 0, if greater than it returns a positive number, less than returns a negetive number
+	{
+		System.out.println(word2 +" is before " + word3);
+	}
 
 /*
 
